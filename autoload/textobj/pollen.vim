@@ -7,14 +7,20 @@ if exists("g:loaded_textobj_pollen_tag")
 endif
 let g:loaded_textobj_pollen_tag = 1
 
-call textobj#user#plugin('pollen', {
-    \ 'tag' : { 
-    \     'select-a-function' : 'textobj#pollen#PollenTagA',
-    \     'select-i-function' : 'textobj#pollen#PollenTagI',
-    \     'select-a' : 'at',
-    \     'select-i' : 'it',
-    \     }
-    \ })
+"call textobj#user#plugin('pollen', {
+    "\ 'tag' : { 
+    "\     'select-a-function' : 'textobj#pollen#PollenTagA',
+    "\     'select-i-function' : 'textobj#pollen#PollenTagI',
+    "\     'select-a' : 'at',
+    "\     'select-i' : 'it',
+    "\     }
+    "\ })
+"call textobj#user#plugin('pollen', {
+    "\ 'tag' : { 
+    "\     'select-a-function' : 'textobj#pollen#PollenTagA',
+    "\     'select-i-function' : 'textobj#pollen#PollenTagI',
+    "\     }
+    "\ })
 
 " Source for racket identifier syntax:
 " <https://docs.racket-lang.org/guide/symbols.html>
